@@ -49,6 +49,10 @@ document.addEventListener('DOMContentLoaded', function() {
     collie: {
       name: 'Border Collie',
       text: 'Der Border Collie ist sehr intelligent, energiegeladen und arbeitsfreudig. Er braucht viel Beschäftigung und Bewegung.'
+    },
+    ben: {
+      name: 'Ben – Der beste Freund',
+      text: 'Ben ist ein außergewöhnlicher Freund: loyal, humorvoll und immer hilfsbereit. Er liebt Hunde, Abenteuer in der Natur und gute Gespräche. Mit seinem Wissen über Hunde und seiner positiven Art bereichert er jede Gruppe. Wer Ben kennt, weiß, dass man sich immer auf ihn verlassen kann.'
     }
   };
 
