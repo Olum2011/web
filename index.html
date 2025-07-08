@@ -2,106 +2,92 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
-  <title>Hunde Welt</title>
+  <title>Tennis Welt</title>
 </head>
 <body>
   <nav>
     <ul>
       <li><a href="#home">Home</a></li>
-      <li><a href="#rassen">Rassen</a></li>
-      <li><a href="#tipps">Tipps</a></li>
+      <li><a href="#geschichte">Geschichte</a></li>
+      <li><a href="#regeln">Regeln</a></li>
+      <li><a href="#stars">Stars</a></li>
       <li><a href="#galerie">Galerie</a></li>
-      <li><a href="#kontakt">Kontakt</a></li>
       <li><a href="#ben">Ben</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
     </ul>
   </nav>
   <header>
-    <h1>Willkommen in der Welt der Hunde</h1>
-    <p>Alles rund um unsere treuen Begleiter</p>
+    <h1>Willkommen in der Welt des Tennis</h1>
+    <p>Alles über den faszinierenden Sport, seine Geschichte, Regeln und berühmte Spieler.</p>
   </header>
   <main>
     <section id="home">
       <h2>Home</h2>
       <article class="kategorie">
-        <h3>Über diese Seite</h3>
-        <p>Willkommen auf unserer umfassenden Hundeseite! Hier findest du alles Wissenswerte rund um Hunde, ihre Geschichte, Pflege, Erziehung und vieles mehr. Die Seite ist in verschiedene Kategorien gegliedert, damit du schnell die gewünschten Informationen findest.</p>
+        <h3>Über Tennis</h3>
+        <p>Tennis ist ein schneller, spannender und weltweit beliebter Sport. Ob Einzel oder Doppel, auf Rasen, Sand oder Hartplatz – Tennis begeistert Millionen Menschen und verbindet Technik, Taktik und Athletik.</p>
       </article>
       <article class="kategorie">
-        <h3>Wissenswertes</h3>
+        <h3>Wusstest du schon?</h3>
         <ul>
-          <li>Hunde sind seit Jahrtausenden treue Begleiter des Menschen und übernehmen vielfältige Aufgaben.</li>
-          <li>Sie helfen als Blindenhunde, Rettungshunde, Therapiehunde und sind tolle Familienmitglieder.</li>
-          <li>Es gibt weltweit über 340 anerkannte Hunderassen mit unterschiedlichsten Eigenschaften.</li>
+          <li>Der längste Tennis-Match der Geschichte dauerte über 11 Stunden.</li>
+          <li>Die vier Grand-Slam-Turniere sind die wichtigsten Wettbewerbe im Tennis.</li>
+          <li>Ein Tennisball kann beim Aufschlag über 230 km/h schnell werden.</li>
         </ul>
       </article>
     </section>
-    <section id="rassen">
-      <h2>Hunderassen</h2>
-      <article class="kategorie">
-        <h3>Beliebte Rassen</h3>
-        <ul class="rassen-liste">
-          <li><button class="rasse-btn" data-rasse="labrador">Labrador Retriever</button></li>
-          <li><button class="rasse-btn" data-rasse="schaeferhund">Deutscher Schäferhund</button></li>
-          <li><button class="rasse-btn" data-rasse="golden">Golden Retriever</button></li>
-          <li><button class="rasse-btn" data-rasse="bulldogge">Französische Bulldogge</button></li>
-          <li><button class="rasse-btn" data-rasse="collie">Border Collie</button></li>
-          <li><button class="rasse-btn" data-rasse="ben">Ben (Freund)</button></li>
-        </ul>
-        <div id="rasse-details" class="rasse-details"></div>
-      </article>
-      <article class="kategorie">
-        <h3>Wissenschaft & Zucht</h3>
-        <div class="rassen-vertiefung">
-          <h4>Die Evolution des Haushundes</h4>
-          <p>Die Domestizierung des Hundes begann vor über 15.000 Jahren, als Wölfe sich dem Menschen anschlossen. Durch gezielte Zucht entstanden zahlreiche Rassen mit unterschiedlichsten Eigenschaften.</p>
-          <h4>Genetische Grundlagen</h4>
-          <p>Moderne Genanalysen zeigen, dass viele Hunderassen eng miteinander verwandt sind. Mutationen, Selektion und Kreuzungen führten zu einer großen Bandbreite an Fellfarben, Körpergrößen und Wesenszügen.</p>
-          <h4>Verhaltensforschung</h4>
-          <p>Hunde verfügen über ein ausgeprägtes Sozialverhalten. Sie kommunizieren mit Artgenossen und Menschen über Körpersprache, Lautäußerungen und Gerüche.</p>
-          <h4>Rassestandard und Zucht</h4>
-          <p>Jede Hunderasse hat einen festgelegten Rassestandard, der Aussehen und Verhalten beschreibt. Seriöse Züchter achten auf Gesundheit, Wesen und genetische Vielfalt.</p>
-        </div>
-      </article>
+    <section id="geschichte">
+      <h2>Geschichte</h2>
+      <div class="untermenue">
+        <button class="unter-btn" data-unter="urspruenge">Ursprünge</button>
+        <button class="unter-btn" data-unter="entwicklung">Entwicklung</button>
+        <button class="unter-btn" data-unter="moderne">Moderne</button>
+      </div>
+      <div id="geschichte-details" class="unter-details"></div>
     </section>
-    <section id="tipps">
-      <h2>Tipps zur Hundehaltung</h2>
-      <article class="kategorie">
-        <h3>Gesundheit & Ernährung</h3>
-        <ul>
-          <li><strong>Ernährung:</strong> Hochwertiges Futter, angepasst an Alter und Aktivität.</li>
-          <li><strong>Tierarztbesuche:</strong> Regelmäßige Kontrollen und Impfungen.</li>
-          <li><strong>Pflege:</strong> Fellpflege, Krallen schneiden, Zahnhygiene.</li>
-        </ul>
-      </article>
-      <article class="kategorie">
-        <h3>Erziehung & Beschäftigung</h3>
-        <ul>
-          <li><strong>Bewegung:</strong> Tägliche Spaziergänge und Spielzeiten.</li>
-          <li><strong>Erziehung:</strong> Konsequenz und Geduld sind der Schlüssel.</li>
-          <li><strong>Beschäftigung:</strong> Intelligenzspiele, Suchspiele, Training.</li>
-          <li><strong>Sozialisierung:</strong> Kontakt zu anderen Hunden und Menschen.</li>
-        </ul>
-      </article>
-      <p>Mit Liebe, Geduld und Wissen wird dein Hund ein glücklicher Begleiter!</p>
+    <section id="regeln">
+      <h2>Regeln</h2>
+      <div class="untermenue">
+        <button class="unter-btn" data-unter="grundlagen">Grundlagen</button>
+        <button class="unter-btn" data-unter="begriffe">Wichtige Begriffe</button>
+        <button class="unter-btn" data-unter="punkte">Punktesystem</button>
+      </div>
+      <div id="regeln-details" class="unter-details"></div>
+    </section>
+    <section id="stars">
+      <h2>Stars</h2>
+      <div class="untermenue">
+        <button class="unter-btn" data-unter="maenner">Herren</button>
+        <button class="unter-btn" data-unter="frauen">Damen</button>
+        <button class="unter-btn" data-unter="legenden">Legenden</button>
+      </div>
+      <div id="stars-details" class="unter-details"></div>
+      <div id="spieler-details" class="unter-details"></div>
     </section>
     <section id="galerie">
       <h2>Galerie</h2>
       <article class="kategorie">
-        <h3>Hundefotos</h3>
-        <p>Schau dir tolle Hundefotos an!</p>
+        <h3>Tennis in Bildern</h3>
         <div class="gallery">
-          <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80" alt="Hund 1">
-          <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=400&q=80" alt="Hund 2">
-          <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=400&q=80" alt="Hund 3">
-          <img src="https://images.unsplash.com/photo-1518715308788-3005759c41c8?auto=format&fit=crop&w=400&q=80" alt="Hund 4">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Tennis 1">
+          <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=400&q=80" alt="Tennis 2">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Tennis 3">
         </div>
       </article>
+    </section>
+    <section id="ben">
+      <h2>Ben – Unser Tennisfreund</h2>
+      <div class="untermenue">
+        <button class="unter-btn" data-unter="wer">Wer ist Ben?</button>
+        <button class="unter-btn" data-unter="momente">Bens Tennis-Momente</button>
+        <button class="unter-btn" data-unter="zitat">Zitat</button>
+      </div>
+      <div id="ben-details" class="unter-details"></div>
     </section>
     <section id="kontakt">
       <h2>Kontakt</h2>
       <article class="kategorie">
         <h3>Kontaktformular</h3>
-        <p>Fragen? Kontaktiere uns gerne über das folgende Formular:</p>
         <form class="kontakt-formular">
           <label for="name">Name:</label><br>
           <input type="text" id="name" name="name" required><br>
@@ -111,26 +97,6 @@
           <textarea id="nachricht" name="nachricht" rows="4" required></textarea><br>
           <button type="submit">Absenden</button>
         </form>
-      </article>
-    </section>
-    <section id="ben">
-      <h2>Mein Freund Ben</h2>
-      <article class="kategorie">
-        <h3>Wer ist Ben?</h3>
-        <p>Ben ist nicht einfach nur ein Freund – er ist ein echtes Original! Mit seinem Humor, seiner Hilfsbereitschaft und seiner positiven Ausstrahlung bringt er jeden zum Lachen. Ben liebt Abenteuer, ist immer für seine Freunde da und hat ein großes Herz für Tiere, besonders für Hunde.</p>
-      </article>
-      <article class="kategorie">
-        <h3>Was macht Ben besonders?</h3>
-        <ul>
-          <li>Ben ist immer ehrlich und loyal.</li>
-          <li>Er hat ein unglaubliches Wissen über Hunde und teilt es gerne mit anderen.</li>
-          <li>Mit Ben wird jeder Ausflug zu einem Erlebnis – ob im Wald, am See oder in der Stadt.</li>
-          <li>Seine Freunde können sich immer auf ihn verlassen.</li>
-        </ul>
-      </article>
-      <article class="kategorie">
-        <h3>Ein paar Worte an Ben</h3>
-        <blockquote>Danke, dass du immer für uns da bist und das Leben bunter machst!</blockquote>
       </article>
     </section>
   </main>

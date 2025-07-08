@@ -176,6 +176,37 @@ section h2 {
 .kategorie ul, .kategorie ol {
   margin-left: 1.2em;
 }
+.untermenue {
+  display: flex;
+  gap: 1em;
+  margin: 1em 0 1.5em 0;
+}
+.unter-btn {
+  background: #4e7d5e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1.2em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.unter-btn:hover, .unter-btn.active {
+  background: #356143;
+}
+.unter-details {
+  background: #f4f7f6;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+  padding: 1.2em 1.5em;
+  min-height: 80px;
+  font-size: 1.05em;
+  margin-bottom: 1em;
+  display: none;
+}
+.unter-details.active {
+  display: block;
+}
 @media (max-width: 700px) {
   nav ul {
     flex-direction: column;
