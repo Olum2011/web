@@ -1,0 +1,190 @@
+/* Modernes, ansprechendes Design für die Hundeseite */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+  color: #222;
+}
+nav {
+  background: #4e7d5e;
+  padding: 0.5em 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 0 1.5em;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+nav ul li a:hover {
+  color: #ffe082;
+}
+nav a.active {
+  color: #ffe082;
+  border-bottom: 2px solid #ffe082;
+}
+header {
+  background: url('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 4em 1em 3em 1em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+header h1 {
+  margin: 0 0 0.5em 0;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
+header p {
+  font-size: 1.3em;
+  margin: 0;
+}
+main {
+  max-width: 900px;
+  margin: 2em auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 2em;
+}
+main section {
+  display: none;
+}
+main section:first-of-type {
+  display: block;
+}
+section {
+  margin-bottom: 2.5em;
+}
+section h2 {
+  color: #4e7d5e;
+  margin-top: 0;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  margin-top: 1em;
+}
+.gallery img {
+  width: 180px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: transform 0.2s;
+}
+.gallery img:hover {
+  transform: scale(1.07);
+}
+.kontakt-formular {
+  max-width: 400px;
+  margin: 1.5em auto 0 auto;
+  background: #f4f7f6;
+  padding: 1.5em 2em;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+}
+.kontakt-formular label {
+  font-weight: bold;
+  margin-top: 1em;
+  display: block;
+}
+.kontakt-formular input,
+.kontakt-formular textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+  border: 1px solid #b2b2b2;
+  border-radius: 4px;
+  font-size: 1em;
+}
+.kontakt-formular button {
+  background: #4e7d5e;
+  color: #fff;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.kontakt-formular button:hover {
+  background: #356143;
+}
+.rassen-liste {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7em;
+  margin: 1em 0 1.5em 0;
+  padding: 0;
+  list-style: none;
+}
+.rassen-liste li {
+  margin: 0;
+}
+.rasse-btn {
+  background: #4e7d5e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1.2em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.rasse-btn:hover {
+  background: #356143;
+}
+.rasse-details {
+  background: #f4f7f6;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+  padding: 1.2em 1.5em;
+  margin-top: 1em;
+  min-height: 60px;
+  font-size: 1.05em;
+  display: none;
+}
+.rasse-details.active {
+  display: block;
+}
+.kategorie {
+  background: #f8f9fa;
+  border-left: 5px solid #4e7d5e;
+  margin-bottom: 2em;
+  padding: 1.2em 1.5em 1.2em 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+}
+.kategorie h3, .kategorie h4 {
+  color: #356143;
+  margin-top: 0.2em;
+}
+.kategorie ul, .kategorie ol {
+  margin-left: 1.2em;
+}
+@media (max-width: 700px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  main {
+    padding: 1em;
+  }
+  header {
+    padding: 2em 1em 1.5em 1em;
+  }
+}
